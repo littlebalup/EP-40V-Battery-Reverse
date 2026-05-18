@@ -4,7 +4,9 @@ These packs are distributed under various brand names.
 *([source](http://www.redbackpower.com/index.php?route=common/about)\)*  
 If your battery resemble the images below, you are at the right place.
 
-![ ](Photos/Brands/nemura.png) ![ ](Photos/Brands/MasterFinish.png)
+![ ](Photos/Brands/nemura.png)  
+![ ](Photos/Brands/MasterFinish.png)  
+![ ](Photos/Brands/oogarden.png)
 
 ---
 
