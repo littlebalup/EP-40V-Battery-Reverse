@@ -6,7 +6,7 @@ If your battery resemble the images below, you are at the right place.
 
 ![ ](Photos/Brands/nemura.png)  
 ![ ](Photos/Brands/MasterFinish.png)  
-![ ](Photos/Brands/oogarden.png)
+![ ](Photos/Brands/secura2.png)
 
 ---
 
@@ -17,7 +17,7 @@ If your battery resemble the images below, you are at the right place.
 Known brands distributing these battery packs:  
 **[redback](Photos/Brands/redback.png)**, **[NEX](Photos/Brands/NEX.png)**, **[NEMURA](Photos/Brands/nemura.png)**, **[FUXTEC](Photos/Brands/fuxtec.png)**, **[Liforce](Photos/Brands/Liforce.png)**, 
 **[OOGarden](Photos/Brands/oogarden.png)**, **[TIMBERPRO](Photos/Brands/timberpro.png)**, **[Riwall](Photos/Brands/Rewall.png)**, **[ZIPPER](Photos/Brands/zipper.png)**, **[GT ELEC](Photos/Brands/GT_ELEC.png)**,
-**[PATRIOT](Photos/Brands/patriot.png)**, **[MIOGARDEN](Photos/Brands/MIOGARDEN.png)**, **[MasterFinish](Photos/Brands/MasterFinish.png)**
+**[PATRIOT](Photos/Brands/patriot.png)**, **[MIOGARDEN](Photos/Brands/MIOGARDEN.png)**, **[MasterFinish](Photos/Brands/MasterFinish.png)**, **[SECURA](Photos/Brands/secura.png)**
 
 ### Models
 
