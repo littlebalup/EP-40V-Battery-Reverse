@@ -98,7 +98,7 @@ A two parts platic (polypropylene?) case secured with x4 T15 screws.
 Based on the reverse-engineered [schematic](Schematics/EP-batt-BMS_schematic.pdf), here are the main active and passive components used in the control circuit:
 
 | Designator | Qty | Component / Value | Description |
-| :--- | :---: | :--- | :--- | :--- |
+| :--- | :---: | :--- | :--- |
 | **U1, U2** | 2 | *Unknown ([CW1051](Docs/datasheets/CW1051.pdf) active low, or equivalent)* | Battery Protection IC |
 | **Q1** | 1 | [MMBT5401](Docs/datasheets/MMBT5401-D.PDF) | PNP Transistor |
 | **Q2** | 1 | [2N7002](Docs/datasheets/NDS7002A-D.PDF) | N-Channel MOSFET |
