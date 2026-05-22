@@ -63,7 +63,7 @@ Known brands distributing these battery packs:
   * **U1 (Top IC):** Monitors 6th to 10th (`B6` to `B+`) cells / parallel group of cells.
 
 ### Safety & Charge Logic (ID Pin)
-The battery pack communicates its status to the charger via the **ID** terminal. The system uses an **Active-Low** logic configuration for the protection ICs' `CO` (Charge Output) on pins 8:
+The battery pack communicates its status to the charger via the **ID** terminal. The system uses an **Active-High** logic configuration for the protection ICs' `CO` (Charge Output) on pins 8:
   * **Normal Operation (No Fault):** Both `U1` and `U2` maintain their `CO` pins at their respective **Low** state (VSS).
     * This turns ON the PNP transistor `Q1` while blocking the NPN transistor `Q3`, allowing `R15` to pull up the gate of the MOSFET `Q2`.
     * As a result, `Q2` **is turned ON and pulls the ID terminal line directly to Ground (B-)**, signaling the charger that the pack is healthy and ready to charge.
@@ -101,7 +101,7 @@ Based on the reverse-engineered [schematic](Schematics/EP-batt-BMS_schematic.pdf
 
 | Designator | Qty | Component / Value | Description |
 | :--- | :---: | :--- | :--- |
-| **U1, U2** | 2 | *Unknown ([CW1051](Docs/datasheets/CW1051.pdf) active low, or equivalent)* | Battery Protection IC |
+| **U1, U2** | 2 | *Unknown\*\** | Battery Protection IC |
 | **Q1** | 1 | [MMBT5401](Docs/datasheets/MMBT5401-D.PDF) | PNP Transistor |
 | **Q2** | 1 | [2N7002](Docs/datasheets/NDS7002A-D.PDF) | N-Channel MOSFET |
 | **Q3** | 1 | [MMBT3904](Docs/datasheets/MMBT3904LT1.PDF) | NPN Transistor |
@@ -116,6 +116,9 @@ Based on the reverse-engineered [schematic](Schematics/EP-batt-BMS_schematic.pdf
 | **R18** | 1 | 100 KΩ | Resistor |
 | **R19** | 1 | 10 KΩ | Resistor |
 | **C1 to C13, C15, C16** | 15 | *Undetermined* | Ceramic Capacitor |
+
+\*\* Unreadable chip marking (obliterated). MSOP-8 package.
+The pinout fully matches [CellWise CW1051](Docs/datasheets/CW1051.pdf) (active high), or equivalent like [hlec SIT1051](https://www.hlec.net/SIT1051-2nd-Battery-Protection-CW1051.html) or [SGMICRO SGM41050](Docs/datasheets/SGM41050.pdf). Please advise if anybody determined it accuratly.
 
 ---
 
