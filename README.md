@@ -58,7 +58,7 @@ Known brands distributing these battery packs:
     * [SunPower INR18650-2000](Photos/INR18650-2000.png) (found in: NEX EP60A) -- *[datasheet](Docs/datasheets/INR18650-2000%20SunPower.pdf)*
 
 ### BMS Controller
- Composed of **two [CW1051](Docs/datasheets/CW1051.pdf) or equivalent** secondary protection ICs configured in **Cascade Mode**.
+ Composed of **two** secondary protection ICs configured in **Cascade Mode**.
   * **U2 (Bottom IC):** Monitors 1st to 5th (`B1` to `B5`) cells / parallel group of cells.
   * **U1 (Top IC):** Monitors 6th to 10th (`B6` to `B+`) cells / parallel group of cells.
 
