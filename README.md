@@ -47,10 +47,10 @@ Known brands distributing these battery packs:
 ### Cells
 
 * **Cells Configuration:**
-  * **EP20** and **EP20A** : 10 x 3.7v **2000mAh** cells, **10S** architecture (x10 in series)  
-  * **EP40** and **EP40A** : 20 x 3.7v **2000mAh** cells, **10S2P** architecture (x10 in series, x2 in parallels)  
-  * **EP60** and **EP60A** : 30 x 3.7v **2000mAh** cells, **10S3P** architecture (x10 in series, x3 in parallels)  
-  * **EP90** and **EP90A** : 30 x 3.7v **3000mAh** cells, **10S3P** architecture (x10 in series, x3 in parallels) *(tbc)*
+  * **EP20** and **EP20A** : 10 x 3.7v **2000mAh** 18650 cells, **10s1p** architecture (x10 in series)  
+  * **EP40** and **EP40A** : 20 x 3.7v **2000mAh** 18650 cells, **10s2p** architecture (x10 in series, x2 in parallels)  
+  * **EP60** and **EP60A** : 30 x 3.7v **2000mAh** 18650 cells, **10s3p** architecture (x10 in series, x3 in parallels)  
+  * **EP90** and **EP90A** : 30 x 3.7v **3000mAh** 18650 cells, **10s3p** architecture (x10 in series, x3 in parallels) *(tbc)*
 * **Cells Brands and Models:**
   * Models without suffix (EPxx) are supposely equiped with **Samsung** cells \([EP40 example](Photos/EP40_cells.jpg)\). Cells confirmed so far:
     * [Samsung INR18650-20R](Photos/INR18650-20R.png) (found in: NEX EP20, OOGarden EP40) -- *[datasheet](Docs/datasheets/INR18650-20R%20Samsung.pdf)*
