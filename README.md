@@ -101,7 +101,7 @@ Based on the reverse-engineered [schematic](Schematics/EP-batt-BMS_schematic.pdf
 
 | Designator | Qty | Component / Value | Description |
 | :--- | :---: | :--- | :--- |
-| **U1, U2** | 2 | *Unknown\*\** | Battery Protection IC |
+| **U1, U2** | 2 | [ABLIC S-8215AAF-K8T2U](Docs/datasheets/S8215A_E.pdf) \*\* | Battery Protection IC for 3-serial to 5-serial Cell Pack (Secondary Protection). CMOS Active High ouput. MSOP-8 package. |
 | **Q1** | 1 | [MMBT5401](Docs/datasheets/MMBT5401-D.PDF) | PNP Transistor |
 | **Q2** | 1 | [2N7002](Docs/datasheets/NDS7002A-D.PDF) | N-Channel MOSFET |
 | **Q3** | 1 | [MMBT3904](Docs/datasheets/MMBT3904LT1.PDF) | NPN Transistor |
@@ -117,8 +117,9 @@ Based on the reverse-engineered [schematic](Schematics/EP-batt-BMS_schematic.pdf
 | **R19** | 1 | 10 KΩ | Resistor |
 | **C1 to C13, C15, C16** | 15 | *Undetermined* | Ceramic Capacitor |
 
-\*\* Unreadable chip marking (obliterated). MSOP-8 package.
-The pinout fully matches [CellWise CW1051](Docs/datasheets/CW1051.pdf) (active high), or equivalent like [hlec SIT1051](https://www.hlec.net/SIT1051-2nd-Battery-Protection-CW1051.html) or [SGMICRO SGM41050](Docs/datasheets/SGM41050.pdf). Please advise if anybody determined it accuratly.
+\*\* [ABLIC S-8215AAF-K8T2U](Docs/datasheets/S8215A_E.pdf) matches [observed chip marking **V6F**](Photos/U1-U2.png). In some cases, the marking has been obliterated. Equivalent clones like [CW1051](Docs/datasheets/CW1051.pdf) or [SGM41050](Docs/datasheets/SGM41050.pdf) may have been used.
+> ⚠️ **Important Note:** > ABLIC uses a reversed cell-numbering convention in the S-8215A datasheet.
+> Contrary to standard BMS logic, "Battery 1" (VC1) refers to the highest voltage cell (top of the 5-cell stack, near VDD), while "Battery 5" (VC5) refers to the lowest voltage cell (bottom of the stack, near VSS). Keep this inversion in mind when tracing voltages on pins VC1 to VC5!
 
 ---
 
